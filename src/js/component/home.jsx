@@ -1,12 +1,12 @@
 import React from "react";
-import Container from "./container.jsx";
-import "../../styles/app.scss";
+import App from "./app.jsx";
+import "../../styles/app.css";
 
 //create your first component
 const Home = () => {
 	return (
 		<div className="tex-center">
-			<Container />
+			<App />
 		</div>
 	);
 };
